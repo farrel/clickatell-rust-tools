@@ -1,0 +1,13 @@
+[package]
+name = "clickatell-cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clickatell-sdk = {path="../clickatell-sdk"}
+tokio = {version="1", features=["full"]}
+clap = "3.2"
+futures = "0.3"
+exitcode = "1.1.2"
