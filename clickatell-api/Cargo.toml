@@ -2,6 +2,8 @@
 name = "clickatell-api"
 version = "0.2.0"
 edition = "2021"
+description = "Send messages to mobile phones via Clickatell messaging gateways"
+license = "MIT"
 
 [dependencies]
 reqwest = {version= "0.11", features=["json"]}
