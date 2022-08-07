@@ -14,6 +14,7 @@
 //! ```
 
 pub mod balance;
+mod blocking_client;
 mod channel;
 mod client;
 mod error;
@@ -21,6 +22,7 @@ pub mod message_status;
 mod result;
 pub mod send_messages;
 
+pub use blocking_client::{BlockingClient, BlockingClientBuilder};
 pub use channel::Channel;
 pub use client::{Client, ClientBuilder};
 pub use error::Error;

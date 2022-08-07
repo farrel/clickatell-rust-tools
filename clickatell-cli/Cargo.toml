@@ -7,7 +7,5 @@ edition = "2021"
 
 [dependencies]
 clickatell-api = {path="../clickatell-api"}
-tokio = {version="1", features=["full"]}
 clap = "3.2"
-futures = "0.3"
 exitcode = "1.1.2"

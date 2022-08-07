@@ -16,8 +16,8 @@ request.add_message(Channel::SMS, number, "This is message two")?;
 
 let response = client.send_messages(request).await?;
 
-for response in response.messages() {
-  println!("Messge ID: {} - {:?}", response.to, response.message_api_id);
+for msg_response in response.messages() {
+  println!("Messge ID: {} - {:?}", msg_response.to, msg_response.message_api_id);
 }
 ```
 
