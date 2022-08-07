@@ -1,11 +1,6 @@
-# Clickatell Tools for Rust
+# Clickatell API 
 
-Clickatell Tools for Rust is a collection of clients for interacting with messaging gateways from [Clickatell](http://www.clickatell.com) using Rust.
-
-It currently consists of 
-
-* `clickatell-api` - Crate for interacting with Clickatell messaging gateways from Rust applications 
-* `clikcatell-cli` - A command line tool using clickatell-sdk to send SMS and Whatsapp messages, check their status and retrieve account balances
+Clickatell API is a crate for interacting with Clickatell messaging gateways from Rust applications 
 
 ## Clickatell API Example
 
@@ -48,3 +43,4 @@ for response in response.messages() {
 Copyright 2022 Farrel Lifson
 
 Released under the MIT License. See LICENSE-MIT for details.
+
