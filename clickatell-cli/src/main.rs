@@ -1,7 +1,7 @@
 mod cli;
 
 use clap::ArgMatches;
-use clickatell_sdk::one_api::{message_status, send_messages, Channel, Client};
+use clickatell_api::one_api::{message_status, send_messages, Channel, Client};
 
 use std::process;
 

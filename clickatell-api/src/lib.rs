@@ -2,7 +2,7 @@
 //! A crate for transmitting messages via [Clickatell](https://www.clickatell.com) messaging gateways.
 //!
 //! ```rust,no_run
-//! use clickatell_sdk::one_api::{send_messages, Client, Result, Channel};
+//! use clickatell_api::one_api::{send_messages, Client, Result, Channel};
 //!
 //! async fn send_sms_message(api_key: &str, numbers: Vec<&str>, message: &str) -> Result<()> {
 //!   let client = Client::new(api_key)?;

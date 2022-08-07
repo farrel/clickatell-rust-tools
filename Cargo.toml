@@ -1,2 +1,2 @@
 [workspace]
-members = ["clickatell-sdk", "clickatell-cli"]
+members = ["clickatell-api", "clickatell-cli"]
