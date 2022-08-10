@@ -28,6 +28,7 @@ for msg_response in response.messages() {
 
 ## Features
 
+* Blocking and Async One API gateway clients.
 * Send text messages via SMS
 * Query message status
 * Account balance
@@ -38,7 +39,6 @@ for msg_response in response.messages() {
 
 ## Features To Implement
 
-* Blocking version of the One API gateway client.
 * Media upload, download and metadata
 * Send media via Whatsapp
 * Message read notifications
